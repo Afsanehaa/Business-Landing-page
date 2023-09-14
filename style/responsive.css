@@ -1,0 +1,165 @@
+@media screen and (max-width:1200px) {
+   .navbar-left{
+    display: none;
+   }
+   .menu-item{
+    margin-right: 12px;
+   }
+   .hero{
+   
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{ 
+    width: 80%;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+h4{ 
+    font-weight: lighter;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: large; 
+}
+.hero-btn{
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+}
+@media screen and (max-width:992px) {
+    .navbar{
+        height: 100px;
+    }
+    .navbar-right{
+        width: 45%;
+    }
+    .navbar-center{
+        width: 45%;
+    }
+    .hero{
+        padding-top: 20px ;
+        padding-bottom: 20px;
+    }
+    h1{ 
+        width: 80%;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    h4{ 
+        width: 80%;
+        text-align: center;
+        margin-top: 17px;
+        line-height: 30px;
+        font-size:17px; 
+    }
+    .hero-btn{
+        width: 130px;
+        height: 30px;
+        font-size: 11px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .main{
+        background-size:100% 50%;  
+        }
+    .navbar{
+        justify-content: space-evenly;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .navbar-center{
+        width: 10%;
+        
+    }
+    #logo{
+        height: 70%;
+    }
+    .navbar-left2{
+        width: 60%;
+        display: flex;
+        justify-content: end;
+    }
+    /*  */
+
+@media screen and (max-width:578px) {
+    .main{
+    background-size:100% 70%;  
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .navbar-center{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .hero{
+        padding-top: 50px ;
+        padding-bottom: 50px;
+    }
+    h1{ 
+        width: 100%;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    h4{ 
+        width: 100%;
+        margin-top: 40px;
+        line-height: 30px;
+        font-size:20px; 
+    }
+    .hero-btn{
+        width: 150px;
+        height: 35px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:448px) {
+    .main{
+        background-image: url(../img/back2.png);
+    }
+    .navbar-center>img{
+        width:150px;
+    }
+    .hero{
+        padding-top: 40px ;
+        padding-bottom: 40px;
+    }
+    h1{ 
+        width: 100%;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h4{ 
+        width: 100%;
+        margin-top: 30px;
+        line-height: 20px;
+        font-size:15px; 
+    }
+    .hero-btn{
+        width: 100px;
+        height: 26px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+ }
+ 

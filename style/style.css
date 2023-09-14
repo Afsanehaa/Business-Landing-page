@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.main{
+    width: 100%;
+    min-width:200px;
+    height: 900px;
+    background-image: url(../img/backg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+   
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.navbar{
+    width: 100%;
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.navbar-right{
+width: 40%;
+height: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.navbar__menu {
+    width: 90%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-center{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar-left2{
+    width: 40%;
+    height: 100%;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact-img{
+    width: 40px;
+    height: 40px;
+    margin-left: 21px;
+}
+
+.hero{
+    width: 100%;
+    padding-top: 80px ;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-header{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{ 
+    width: 50%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+
+
+}
+h4{ 
+    color: #fff;
+    font-weight: lighter;
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: large;
+    
+}
+.hero-action{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-btn{
+    width: 220px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2091F9;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
